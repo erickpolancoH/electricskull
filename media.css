@@ -1,0 +1,160 @@
+/* AUDIO PLAYER*/
+/*Iphone 12 audio player*/
+
+@media(max-width:844px){
+  #controlsContainer {
+  position: fixed;
+  margin-top: 190%;
+  background-color: rgba(0, 0, 0, 0.6); /* ← Aquí ajustas la transparencia */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+button{
+    background-color: transparent;
+    gap: 4em;
+}
+
+
+}
+
+/*Desktop audio player*/
+
+#controlsContainer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6); /* ← Aquí ajustas la transparencia */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+button{
+    background-color: transparent;
+    gap: 4em;
+}
+
+
+/*Ipad mini Audio player*/
+
+@media(max-width:1024px){
+  #controlsContainer {
+  position: fixed;
+  margin-top: 120%;
+  background-color: rgba(0, 0, 0, 0.6); /* ← Aquí ajustas la transparencia */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+button{
+    background-color: transparent;
+    gap: 4em;
+}
+}
+
+
+
+/*Ipad Air Audio player*/
+
+@media(max-width:1024px){
+  #controlsContainer {
+  position: fixed;
+  margin-top: 130%;
+  background-color: rgba(0, 0, 0, 0.6); /* ← Aquí ajustas la transparencia */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+button{
+    background-color: transparent;
+    gap: 4em;
+}
+}
+
+
+
+
+@media (max-width: 1024px) {
+  #controlsContainer {
+    position: fixed;
+    bottom: 1rem;       /* Distancia desde el borde inferior */
+    left: 1rem;         /* Distancia desde el borde izquierdo */
+    background-color: rgba(0, 0, 0, 0.6); /* Transparencia */
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
+
+  button {
+    background-color: transparent;
+    margin-bottom: 1rem; /* Espacio entre botones si hay varios */
+  }
+}
+
+
+/*samsun galaxy A-51 Audio player*/
+
+@media(max-width:1024px){
+  #controlsContainer {
+  position: fixed;
+  margin-top: 190%;
+  background-color: rgba(0, 0, 0, 0.6); /* ← Aquí ajustas la transparencia */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+button{
+    background-color: transparent;
+    gap: 4em;
+}
+}
+
+
+@media (max-width: 740px) {
+  #controlsContainer {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    z-index: 1000;
+    max-width: 90vw;       /* No se sale del viewport */
+    overflow-x: auto;      /* Scroll horizontal si es necesario */
+    box-sizing: border-box;
+  }
+
+  #controlsContainer button {
+    background-color: transparent;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2px 4px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    min-width: auto;
+    max-width: 100px;
+    height: 22px;
+    width: 40px;
+    white-space: nowrap;   /* Evita que el texto se rompa */
+    flex-shrink: 0;        /* Evita que se achiquen demasiado */
+  }
+}
+
