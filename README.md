@@ -55,10 +55,12 @@
 </div>
 
 <div class="demography-container">
-<div class="demColor-lightblue"><span>Electronic</span></div>
-<div class="demColor-yellow"><span>Tools</span></div>
-<div class="demColor-purple"><span>Cable</span></div>
-
+<div class="demColor-lightblue" style="color: rgb(147, 147, 147);"><span>phaser</span></div>
+<div class="demColor-yellow" style="color: rgb(155, 155, 155);"><span>delay</span></div>
+<div class="demColor-purple" style="color: rgb(154, 154, 154);"><span>cables</span></div>
+<div class="demColor-purple" style="background-color: aqua; color: rgb(149, 149, 149); "><span>reverb</span></div>
+<div class="demColor-purple" style="background-color: rgb(178, 0, 0); color: rgb(167, 167, 167);  "><span>Distortion</span></div>
+<div class="demColor-purple" style="background-color: rgb(0, 3, 178); color: rgb(167, 167, 167);  "><span>AMP/cable</span></div>
 </div>
 
 <main class="content">
@@ -67,33 +69,67 @@
    <nav class="navbar">
  
   <ul>
-    <li><a href="#servicios">empty</a></li>
-    <li><a href="#servicios">empty</a></li>
-    <li><a href="#contacto">empty</a></li>
-    <li><a href="#contacto">empty</a></li>
-    <li><a href="#contacto">empty</a></li>
-    <li><a href="#contacto">empty</a></li>
+    <li><a href="https://amzn.to/4nbs7tW" target="_blank" rel="nofollowsponsored">buy at amazon </a></li>
+    <li><a href="https://amzn.to/4g8agSm" target="_blank" rel="nofollowsponsored">flamma-fc05</a></li>
+    <li><a href="https://amzn.to/3V0RBhR" target="_blank" rel="nofollowsponsored">Sonicake modulation effect</a></li>
+    <li><a href="https://amzn.to/483nRZa" target="_blank" rel="nofollowsponsored">Behringer Dual-phase</a></li>
+    <li><a href="https://amzn.to/4p6Vz6t"   target="_blank" rel="nofollosponsored">Alab-Novadrift</a></li>
+    <li><a href="https://amzn.to/46qdnBV" target="_blank" rel="nofollosponsored">Caline-CP506</a></li>
     </ul>
     <!--TOOLS-->
 
 <ul>
-    <li ><a href="#inicio" style="background-color: rgb(197, 197, 0); color: black;">empty</a></li>
-    <li><a href="#servicios" style="background-color: rgb(197, 197, 0); color: black;" >empty</a></li>
-     <li><a href="#servicios" style="background-color: rgb(197, 197, 0); color: black;" >empty</a></li>
-      <li><a href="#servicios" style="background-color: rgb(197, 197, 0); color:black" >empty</a></li>
-       <li><a href="#servicios" style="background-color: rgb(197, 197, 0); color: black;" >empty</a></li>
-        <li><a href="#servicios" style="background-color: rgb(197, 197, 0);color: black;" >empty</a></li>
+    <li ><a href="https://amzn.to/4ngwwMa"  target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 197, 0); color: black;">Donner Whitetape</a></li>
+    <li><a href="https://amzn.to/4nn1uTe" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 197, 0); color: black;" >Alab TimeSleep</a></li>
+     <li><a href="https://amzn.to/47ONflF" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 197, 0); color: black;" >Flamma-FC03</a></li>
+      <li><a href="https://amzn.to/3Ib3DCi" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 197, 0); color:black" >BossDD-3T</a></li>
+       <li><a href="https://amzn.to/4nprT2N"  target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 197, 0); color: black;" >Flamma SF03</a></li>
+        <li><a href="https://amzn.to/47wvzLm" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 197, 0);color: black;" >JHS Delay 3 series</a></li>
     </ul>
 
-    <!--PETS-->
+ 
 <ul>
-    <li ><a href="#inicio" style="background-color: rgb(118, 0, 197);">empty</a></li>
-    <li><a href="#servicios" style="background-color: rgb(118, 0, 197);" >empty</a></li>
-    <li><a href="#servicios" style="background-color: rgb(118, 0, 197);" >empty</a></li>
-    <li><a href="#servicios" style="background-color: rgb(118, 0, 197);" >empty</a></li>
-    <li><a href="#servicios" style="background-color: rgb(118, 0, 197);" >empty</a></li>
-    <li><a href="#servicios" style="background-color: rgb(118, 0, 197);" >empty</a></li>
+    <li ><a href="https://amzn.to/45SVyLN" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Amazon Basic 1/4</a></li>
+       <li ><a href="https://amzn.to/46eZLID" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Elebase cable</a></li>
+          <li ><a href="https://amzn.to/3JJkCfH" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Sovvid</a></li>
+             <li ><a href="https://amzn.to/4g8dIwi" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Ernie Ball cable</a></li>
+                <li ><a href="https://amzn.to/3V0EvBc" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Rockstock cable 6in</a></li>
+                   <li ><a href="https://amzn.to/480YgAc" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Augioth cable</a></li>
+                      <li ><a href="https://amzn.to/3I7X3MW" target="_blank" rel="nofollosponsored" style="background-color: rgb(118, 0, 197);">Ernie Ball blue 3 pack</a></li>
 </ul>
+
+
+<ul>
+    <li ><a href="https://amzn.to/482WTAT" target="_blank"  rel="nofollosponsored" style="background-color: rgb(0, 255, 213); color: black;">Mediorays Reverb</a></li>
+  <li ><a href="https://amzn.to/42goIlF" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 255, 213); color: black;">M-vave Reverb</a></li>
+    <li ><a href="https://amzn.to/4m44xhY" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 255, 213); color: black;">Limbo Reverb </a></li>
+      <li ><a href="https://amzn.to/47stNLf" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 255, 213); color: black;">Mooer A7</a></li>
+        <li ><a href="https://amzn.to/3V4sc6Y" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 255, 213); color: black;">EX mini reverb</a></li>
+          <li ><a href="https://amzn.to/4pgnvVu" target="_blank" rel="nofollowsponsored" style="background-color: rgb(0, 255, 213); color: black;">Sonicake Reverb</a></li>
+</ul>
+
+
+<ul>
+     <li ><a href="https://amzn.to/4nj3sns" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Satone S811</a></li>
+     <li ><a href="https://amzn.to/3JNI7nH" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Distortion DS-1 </a></li>
+     <li ><a href="https://amzn.to/4mZ8kyw" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Flamma FC06</a></li>
+     <li ><a href="https://amzn.to/47wYLSu" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Sondery metal Distortion</a></li>
+     <li ><a href="https://amzn.to/3K7pknk" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">AFOT metal distortion</a></li>
+     <li ><a href="https://amzn.to/41FamLx" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Boss MT-2</a></li>
+     <li ><a href="https://amzn.to/45StJ6k" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">JOYO distortion pedal</a></li>
+</ul>
+
+
+<ul>
+     <li ><a href="https://amzn.to/42bzbPg" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Ernie Ball P54103</a></li>
+     <li ><a href="https://amzn.to/4nhGrRR" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Ernie Ball P06080</a></li>
+     <li ><a href="https://amzn.to/483sEtC" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">PW-CGTRA-10</a></li>
+     <li ><a href="https://amzn.to/4mnu1qV" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">18AWG OFC</a></li>
+     <li ><a href="https://amzn.to/4m2rmm0" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Fender professional</a></li>
+     <li ><a href="https://amzn.to/45REuFT" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Fender Deluxe Series</a></li>
+</ul>
+
+
 
 </nav>
 
