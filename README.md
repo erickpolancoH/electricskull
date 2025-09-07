@@ -71,7 +71,7 @@
   <ul>
     <li><a href="https://amzn.to/4nbs7tW" target="_blank" rel="nofollowsponsored">buy at amazon </a></li>
     <li><a href="https://amzn.to/4g8agSm" target="_blank" rel="nofollowsponsored">flamma-fc05</a></li>
-    <li><a href="https://amzn.to/3V0RBhR" target="_blank" rel="nofollowsponsored">Sonicake modulation effect</a></li>
+    <li><a href="https://amzn.to/3V0RBhR" target="_blank" rel="nofollowsponsored">Sonicake modulation</a></li>
     <li><a href="https://amzn.to/483nRZa" target="_blank" rel="nofollowsponsored">Behringer Dual-phase</a></li>
     <li><a href="https://amzn.to/4p6Vz6t"   target="_blank" rel="nofollosponsored">Alab-Novadrift</a></li>
     <li><a href="https://amzn.to/46qdnBV" target="_blank" rel="nofollosponsored">Caline-CP506</a></li>
@@ -113,16 +113,16 @@
      <li ><a href="https://amzn.to/4nj3sns" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Satone S811</a></li>
      <li ><a href="https://amzn.to/3JNI7nH" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Distortion DS-1 </a></li>
      <li ><a href="https://amzn.to/4mZ8kyw" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Flamma FC06</a></li>
-     <li ><a href="https://amzn.to/47wYLSu" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Sondery metal Distortion</a></li>
+     <li ><a href="https://amzn.to/47wYLSu" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Sondery Distortion</a></li>
      <li ><a href="https://amzn.to/3K7pknk" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">AFOT metal distortion</a></li>
      <li ><a href="https://amzn.to/41FamLx" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">Boss MT-2</a></li>
-     <li ><a href="https://amzn.to/45StJ6k" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">JOYO distortion pedal</a></li>
+     <li ><a href="https://amzn.to/45StJ6k" target="_blank" rel="nofollosponsored" style="background-color: rgb(197, 0, 0);">JOYO distortion</a></li>
 </ul>
 
 
 <ul>
-     <li ><a href="https://amzn.to/42bzbPg" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Ernie Ball P54103</a></li>
-     <li ><a href="https://amzn.to/4nhGrRR" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Ernie Ball P06080</a></li>
+     <li ><a href="https://amzn.to/42bzbPg" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">ErnieBall P54103</a></li>
+     <li ><a href="https://amzn.to/4nhGrRR" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">ErnieBall P06080</a></li>
      <li ><a href="https://amzn.to/483sEtC" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">PW-CGTRA-10</a></li>
      <li ><a href="https://amzn.to/4mnu1qV" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">18AWG OFC</a></li>
      <li ><a href="https://amzn.to/4m2rmm0" target="_blank" rel="nofollosponsored" style="background-color: rgb(0, 36, 197);">Fender professional</a></li>
