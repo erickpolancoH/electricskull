@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta property="og:title" content="electricskull">
-  <meta property="og:image" content="https://erickpolancoh.github.io/electricskull/elecskullMainflyer.png">
+  <meta property="og:image" content="https://erickpolancoh.github.io/electricskull/electricskullMainFlayer.png">
   <meta name="description" content="Electric Skull: Electronic equipment & Tools Technology, cameras, guitar pedals, GPS, Dog GPS, Electronic components">
   <meta property="og:url" content="https://erickpolancoh.github.io/electricskull/">
      <link rel="stylesheet" href="style.css">
