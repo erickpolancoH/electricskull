@@ -131,7 +131,7 @@ main {
     width: 100%;
     height: 100vh;
     z-index: -1;
-    background-image: url('ParalaxPedal0001-0250.mkv');
+    background-image: url('BackgroundPedals.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
