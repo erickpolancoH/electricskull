@@ -37,18 +37,10 @@
   <img src="electricskull.svg" alt="Logo" />
 </div>
 
-<div class="video-bg">
-  <video preload="auto" autoplay muted loop playsinline>
-    <source src="ParalaxPedal0001-0250.mp4" type="video/mp4" />
-
-    Tu navegador no soporta el video.
-  </video>
-</div>
 
 
+<div>
 
-
-</div>
 
 <div class="demography-container">
 <div class="demColor-lightblue" style="color: rgb(147, 147, 147);"><span>phaser</span></div>
