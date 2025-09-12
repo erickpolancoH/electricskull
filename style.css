@@ -102,6 +102,19 @@ section {
   height: auto;
 }
 
+
+  #background_wrap {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image: url('BackgroundPedals.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 /* MAIN FIX */
 main {
   padding: 0; /* El valor negativo no es válido */
