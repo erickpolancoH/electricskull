@@ -1,23 +1,19 @@
-/* lets *{font family robotto and all necesary */
+/* GLOBAL RESET */
 * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-  
-}
-
-/* lets  header  color black flex*/
-
-
-h1 {
-  font-size: 0.001rem;     /* Prácticamente invisible */
-  color: transparent;      /* No se ve el texto */
-  line-height: 0;          /* Evita que genere espacio vertical */
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* HEADER INVISIBLE */
+h1 {
+  font-size: 0.001rem;
+  color: transparent;
+  line-height: 0;
+}
 
-/* Fondo de video fijo */
+/* VIDEO BACKGROUND */
 .video-bg {
   position: fixed;
   top: 0; left: 0;
@@ -25,17 +21,17 @@ h1 {
   z-index: -2;
   overflow: hidden;
   will-change: transform;
+  pointer-events: none;
 }
 
 .video-bg video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
-/* Logo fijo con parallax */
-
-
+/* LOGO CONTAINER */
 .logo-container {
   position: fixed;
   top: 1rem; left: 1rem;
@@ -44,10 +40,9 @@ h1 {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   display: flex;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
   justify-content: center;
+  width: auto;
+  height: auto;
   will-change: transform;
 }
 
@@ -55,66 +50,10 @@ h1 {
   height: 150px;
 }
 
-/* Navbar fijo */
-
-
-
-section{
-    position: fixed;
-  top: 200%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centra absolutamente */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  z-index: 1000; /* Asegura que esté encima */
-  background-color:transparent;
-  width: 100%;
-  height: auto;
-}
-
-
-
-
-
-  /* Fondo de video fijo */
-
-@media (max-width: 768px) {
-
-
-  .video-bg {
-    height: 100vh;
-    transform: scale(1.1); /* Escala ligera para compensar recorte */
-  }
-
-  .video-bg video {
-    object-fit: cover;
-    object-position: center center; /* Centrado horizontal y vertical */
-    transform: scale(1.1); /* Asegura que el video llene el espacio */
-  }
-
-   #background_wrap{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index:-1;
-    background-image: url('ParalaxPedal0001-0250.mkv');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-
-/* Logo fijo con parallax */
- 
+/* NAVBAR */
 .navbar {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; right: 0; bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -125,105 +64,83 @@ section{
   background-color: transparent;
   width: auto;
   max-height: 100vh;
-  overflow-y: auto; /* Scroll vertical */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .navbar ul {
+  list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
   gap: 1rem;
-  padding: 0;
-  list-style: none;
-  margin: 0;
 }
 
 .navbar a {
-  display: inline-block;
   padding: 0.5rem 1rem;
   background-color: #007BFF;
   color: white;
   text-decoration: none;
   border-radius: 50px;
   font-weight: bold;
-  text-align: center;
   min-width: 120px;
   font-size: 0.9rem;
 }
 
+/* SECTION FIXED CENTER */
+section {
+  position: fixed;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 1000;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+}
 
- main{
-  padding: -16px;
- }
+/* MAIN FIX */
+main {
+  padding: 0; /* El valor negativo no es válido */
+}
 
- /*iphone 12*/
+/* MEDIA QUERIES */
+
+/* MÓVILES */
 @media (max-width: 844px) {
+  .video-bg {
+    position: absolute;
+    height: 100vh;
+    transform: scale(1.1);
+  }
+
+  .video-bg video {
+    transform: scale(1.1);
+  }
+
   .logo-container {
-    position: fixed;
-    top: 1rem;
-    left: 1rem; /* ← Aquí estaba el error: faltaba el valor */
-    z-index: 10;
-    background-color: transparent;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    display: flex;
-    width: auto;
-    height: auto;
-    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    justify-content: flex-start;
   }
 
-  .logo-container img {
-    height: 150px;
-  }
-
-    #background_wrap{
-    position: fixed;
-    top: 0;
-    left: 0;
+  #background_wrap {
+    position: absolute;
+    top: 0; left: 0;
     width: 100%;
-    height: auto;
-    z-index:-1;
+    height: 100vh;
+    z-index: -1;
     background-image: url('ParalaxPedal0001-0250.mkv');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
-/*ipad pro*/
+/* TABLETS Y IPAD */
 @media (max-width: 1376px) {
   .logo-container {
-    position: fixed;
-    top: 1rem;
-    left: 1rem; /* ← Aquí estaba el error: faltaba el valor */
-    z-index: 10;
-    background-color: transparent;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    display: flex;
-    width: auto;
-    height: auto;
-    justify-content: flex-start; /* Alinea el contenido a la izquierda */
-  }
-
-  .logo-container img {
-    height: 150px;
-  }
-
-  #background_wrap{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index:-1;
-    background-image: url('ParalaxPedal0001-0250.mkv');
-    background-size: cover;
-    background-repeat: no-repeat;
+    justify-content: flex-start;
   }
 }
-
-
-
-
-
