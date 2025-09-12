@@ -93,11 +93,23 @@ section{
     object-position: center center; /* Centrado horizontal y vertical */
     transform: scale(1.1); /* Asegura que el video llene el espacio */
   }
+
+   #background_wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index:-1;
+    background-image: url('ParalaxPedal0001-0250.mkv');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 
 /* Logo fijo con parallax */
-
+ 
 .navbar {
   position: fixed;
   top: 0;
@@ -164,6 +176,18 @@ section{
   .logo-container img {
     height: 150px;
   }
+
+    #background_wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index:-1;
+    background-image: url('ParalaxPedal0001-0250.mkv');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 /*ipad pro*/
@@ -184,6 +208,18 @@ section{
 
   .logo-container img {
     height: 150px;
+  }
+
+  #background_wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index:-1;
+    background-image: url('ParalaxPedal0001-0250.mkv');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 

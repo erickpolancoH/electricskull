@@ -14,23 +14,14 @@
     <title>Electronic equipment holder</title>
 </head>
 <body>
-
+<div id="background_wrap"></div>
   <!--El maldito titulo-->
   <h1> 
     Electronic Equipment & tools
   </h1>
 
-<!--aqui va tu audio -->
 
-<audio id="myAudio" src="electricskull.mp3" preload="none" autoplay playsinline defer></audio>
 
-<div id="controlsContainer">
-  <div class="buttonGroup">
-    <button id="playBtn"><img  src="play.svg"></button>
-    <button id="pauseBtn"><img src="Back.svg"></button>
-    <button id="stopBtn"><img src="stop.svg"></button>
-  </div>
-</div>
 
 
 

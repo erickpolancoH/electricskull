@@ -43,3 +43,11 @@ window.addEventListener('scroll', () => {
   video.style.transform = `translateY(${scrollY * 0.2}px)`;
   logo.style.transform = `translateY(${scrollY * 0.4}px)`;
 });
+
+
+
+//parallax.js
+
+windows.addEventListener('scroll', function(){
+  const offset = window.pageYOffset;
+  cocument.getElementByid('background_wrap').style.transform = 'translateY(${ofset *'});
