@@ -11,6 +11,8 @@
      <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="status.css">
     <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <title>Electronic equipment holder</title>
 </head>
 <body>
@@ -34,11 +36,14 @@
 <div class="logo-container">
   <img src="electricskull.svg" alt="Logo" />
 </div>
-<div class="video-bg">
-  <video preload="none" autoplay muted loop>
-    <source src="ParalaxPedal0001-0250.mkv" type="video/mp4" />
-  </video>
 
+<div class="video-bg">
+  <video preload="auto" autoplay muted loop playsinline>
+    <source src="ParalaxPedal0001-0250.mp4" type="video/mp4" />
+
+    Tu navegador no soporta el video.
+  </video>
+</div>
 
 
 
