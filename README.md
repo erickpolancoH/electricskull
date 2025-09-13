@@ -49,6 +49,7 @@
 <div class="demColor-purple" style="background-color: aqua; color: rgb(149, 149, 149); "><span>reverb</span></div>
 <div class="demColor-purple" style="background-color: rgb(178, 0, 0); color: rgb(167, 167, 167);  "><span>Distortion</span></div>
 <div class="demColor-purple" style="background-color: rgb(0, 3, 178); color: rgb(167, 167, 167);  "><span>AMP/cable</span></div>
+<div class="demColor-purple" style="background-color: rgb(241, 104, 0); color: rgb(167, 167, 167);  "><span>Board/back</span></div>
 </div>
 
 <main class="content">
@@ -118,6 +119,12 @@
 </ul>
 
 
+<ul>
+  <li><a href="https://amzn.to/46zdb3n" target="_blank" rel="nofollowsponsored" style="background-color: rgb(255, 64, 0); color: white;">GhostFire Board</a></li>
+  <li><a href="https://amzn.to/3VRhvVq" target="_blank" rel="nofollowsponsored" style="background-color: rgb(255, 64, 0); color: white;">Donner DB-3</a></li>
+  <li><a href="https://amzn.to/3VT2h2d" target="_blank" rel="nofollowsponsored" style="background-color: rgb(255, 64, 0); color: white;">Gostfire</a></li>
+ 
+</ul>
 
 </nav>
 
