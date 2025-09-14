@@ -68,11 +68,23 @@ h1 {
   -webkit-overflow-scrolling: touch;
 }
 
+
 .navbar ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.titulo{
+   padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  min-width: 120px;
+  font-size: 0.9rem;
 }
 
 .navbar a {
