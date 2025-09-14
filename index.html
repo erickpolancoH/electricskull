@@ -39,18 +39,38 @@
 
 
 
-<div>
-
-
 <div class="demography-container">
-<div class="demColor-lightblue" style="color: rgb(147, 147, 147);"><span>phaser</span></div>
-<div class="demColor-yellow" style="color: rgb(155, 155, 155);"><span>delay</span></div>
-<div class="demColor-purple" style="color: rgb(154, 154, 154);"><span>cables</span></div>
-<div class="demColor-purple" style="background-color: aqua; color: rgb(149, 149, 149); "><span>reverb</span></div>
-<div class="demColor-purple" style="background-color: rgb(178, 0, 0); color: rgb(167, 167, 167);  "><span>Distortion</span></div>
-<div class="demColor-purple" style="background-color: rgb(0, 3, 178); color: rgb(167, 167, 167);  "><span>AMP/cable</span></div>
-<div class="demColor-purple" style="background-color: rgb(241, 104, 0); color: rgb(167, 167, 167);  "><span>Board/back</span></div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: rgb(0, 191, 255);"></div>
+    <span class="label">phaser</span>
+  </div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: yellow;"></div>
+    <span class="label">delay</span>
+  </div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: purple;"></div>
+    <span class="label">cables</span>
+  </div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: aqua;"></div>
+    <span class="label">reverb</span>
+  </div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: rgb(178, 0, 0);"></div>
+    <span class="label">Distortion</span>
+  </div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: rgb(0, 3, 178);"></div>
+    <span class="label">AMP/cable</span>
+  </div>
+  <div class="demography-item">
+    <div class="color-box" style="background-color: rgb(241, 104, 0);"></div>
+    <span class="label">Board/back</span>
+  </div>
 </div>
+
+
 
 <main class="content">
   <!-- Aquí va tu contenido scrollable -->
