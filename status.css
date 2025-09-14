@@ -94,3 +94,20 @@ right: 4px;
 
 }
 
+
+/* IPAD*/
+@media (max-width: 1376px) {
+    .demography-container {
+display: block;
+background-color: transparent;
+background-position: relative;
+margin-top: 10rem;
+gap: 7rem;
+width: 100%;
+height: auto;
+justify-content: center;
+right: 4px;
+}
+}
+
+
