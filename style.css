@@ -78,7 +78,6 @@ h1 {
 
 .titulo{
    padding: 0.5rem 1rem;
-  background-color: #007BFF;
   color: white;
   text-decoration: none;
   border-radius: 50px;
@@ -136,6 +135,16 @@ main {
 
 /* MÓVILES */
 @media (max-width: 844px) {
+
+  .titulo{
+   padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  min-width: 120px;
+  font-size: 0.9rem;
+}
   .video-bg {
     position: absolute;
     height: 100vh;
@@ -192,6 +201,15 @@ html, body {
 
 /* TABLETS Y IPAD */
 @media (max-width: 1376px) {
+  .titulo{
+   padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  min-width: 120px;
+  font-size: 0.9rem;
+}
   .logo-container {
     justify-content: flex-start;
   }
