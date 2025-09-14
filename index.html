@@ -39,36 +39,9 @@
 
 
 
-<div class="demography-container">
-  <div class="demography-item">
-    <div class="color-box" style="background-color: rgb(0, 191, 255);"></div>
-    <span class="label">phaser</span>
-  </div>
-  <div class="demography-item">
-    <div class="color-box" style="background-color: yellow;"></div>
-    <span class="label">delay</span>
-  </div>
-  <div class="demography-item">
-    <div class="color-box" style="background-color: purple;"></div>
-    <span class="label">cables</span>
-  </div>
-  <div class="demography-item">
-    <div class="color-box" style="background-color: aqua;"></div>
-    <span class="label">reverb</span>
-  </div>
-  <div class="demography-item">
-    <div class="color-box" style="background-color: rgb(178, 0, 0);"></div>
-    <span class="label">Distortion</span>
-  </div>
-  <div class="demography-item">
-    <div class="color-box" style="background-color: rgb(0, 3, 178);"></div>
-    <span class="label">AMP/cable</span>
-  </div>
-  <div class="demography-item">
-    <div class="color-box" style="background-color: rgb(241, 104, 0);"></div>
-    <span class="label">Board/back</span>
-  </div>
-</div>
+<div class="demography-container"></div>
+
+  
 
 
 

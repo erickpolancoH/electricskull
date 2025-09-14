@@ -1,140 +1,159 @@
 
-/* demografia */
+/*DEMOGRAPHY*/
 
 .demography-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 1rem;
-  box-sizing: border-box;
-  transform: translateY(-20px); /* Mueve hacia arriba 20px */
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(demography.svg); /* agrega tu imagen SVG aquí */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  margin-top: 10rem;
+
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  -webkit-overflow-scrolling: auto;
+  transform: scale(1); /* escala base */
+  transition: transform 0.3s ease-in-out;
+  left: 1rem;
 }
 
 
-.demography-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: transparent;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  min-width: 120px;
+/* telefonos cedlulares*/
+@media (max-width: 844px) and (orientation: portrait) {
+
+.demography-container {
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(demography.svg); /* agrega tu imagen SVG aquí */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  margin-top: 6rem;
+
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  -webkit-overflow-scrolling: auto;
+  transform: scale(0.8); /* escala base */
+  transition: transform 0.3s ease-in-out;
+   top: 1rem;       /* controla la distancia desde arriba */
+  left: -1rem;       /* mueve hacia la izquierda */
+  width: 250px;
+  height: 250px;
+
 }
 
-.color-box {
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  flex-shrink: 0;
+
+  
 }
-
-.label {
-  color: rgb(255, 255, 255);
-  font-size: 0.9rem;
-  white-space: nowrap;
-}
-
-
-
-
-
-@media(max-width:844px){
-    .demography-container {
-display: block;
-background-color: transparent;
-background-position: relative;
-margin-top: 10rem;
-gap: 7rem;
-width: 100%;
-height: auto;
-justify-content: center;
-right: 4px;
-}
-}
-
 
 
 @media (max-width: 844px) and (orientation: landscape) {
 
 .demography-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto); /* 3 columnas ajustadas al contenido */
-  gap: 0.3rem;                            /* Espacio mínimo entre elementos */
-  justify-content: start;                /* Alinea todo a la izquierda */
-  padding: 1rem;
- 
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(demography.svg); /* agrega tu imagen SVG aquí */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  margin-top: 4rem;
 
-.demography-item {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem 0.6rem;
-  border-radius: 6px;
-  background-color: transparent;
-
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  -webkit-overflow-scrolling: auto;
+  transform: scale(0.7); /* escala base */
+  transition: transform 0.3s ease-in-out;
+   top: 3rem;       /* controla la distancia desde arriba */
+  left: -2rem;       /* mueve hacia la izquierda */
+  width: 250px;
+  height: 250px;
+  
 }
 
-.color-box {
-  width: 16px;
-  height: 16px;
-  border-radius: 4px;
-}
-
-.label {
-  white-space: nowrap;
-  font-size: 0.9rem;
-  color: rgb(255, 255, 255);
+  
 }
 
 
-  html, body {
-    overflow: hidden;
-    overscroll-behavior: contain;
-    touch-action: manipulation;
+/*IPAD*/
+.demography-container {
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(demography.svg); /* agrega tu imagen SVG aquí */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  margin-top: 4rem;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  -webkit-overflow-scrolling: auto;
+  transform: scale(0.8); /* escala base */
+  transition: transform 0.3s ease-in-out;
+   top: 4rem;       /* controla la distancia desde arriba */
+  left: -2rem;       /* mueve hacia la izquierda */
+  width: 250px;
+  height: 250px;
+  
+  
+}
+
+  
+@media (min-width: 845px) and (max-width: 1376px) and (orientation: landscape) {
+  .demography-container {
+    transform: scale(0.9);
+    margin-top: 8rem;
   }
 
+.demography-container {
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(demography.svg); /* agrega tu imagen SVG aquí */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  margin-top: 4rem;
+
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  -webkit-overflow-scrolling: auto;
+  transform: scale(0.9); /* escala base */
+  transition: transform 0.3s ease-in-out;
+   top: 5rem;       /* controla la distancia desde arriba */
+  left: -1rem;       /* mueve hacia la izquierda */
+  width: 250px;
+  height: 250px;
+
+  
+}
+
 }
 
 
-@media (min-width: 845px) and (max-width: 1376px){
-    .demography-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto); /* 3 columnas ajustadas al contenido */
-  gap: 0.5rem;                            /* Espacio mínimo entre elementos */
-  justify-content: start;                /* Alinea todo a la izquierda */
-  padding: 1rem;
-  margin-top: 10rem;
-}
-
-.demography-item {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem 0.6rem;
-  border-radius: 6px;
-  background-color: transparent;
-}
-
-.color-box {
-  width: 16px;
-  height: 16px;
-  border-radius: 4px;
-}
-
-.label {
-  white-space: nowrap;
-  font-size: 0.9rem;
-  color: rgb(255, 255, 255);
-}
 
 
-  html, body {
-    overflow: hidden;
-    overscroll-behavior: contain;
-    touch-action: manipulation;
-  }
 
-}
-}
