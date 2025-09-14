@@ -9,7 +9,9 @@
   align-items: center;
   padding: 1rem;
   box-sizing: border-box;
+  transform: translateY(-20px); /* Mueve hacia arriba 20px */
 }
+
 
 .demography-item {
   display: flex;
@@ -59,10 +61,10 @@ right: 4px;
 .demography-container {
   display: grid;
   grid-template-columns: repeat(3, auto); /* 3 columnas ajustadas al contenido */
-  gap: 0.5rem;                            /* Espacio mínimo entre elementos */
+  gap: 0.3rem;                            /* Espacio mínimo entre elementos */
   justify-content: start;                /* Alinea todo a la izquierda */
   padding: 1rem;
-}
+ 
 
 .demography-item {
   display: flex;
@@ -71,6 +73,7 @@ right: 4px;
   padding: 0.3rem 0.6rem;
   border-radius: 6px;
   background-color: transparent;
+
 }
 
 .color-box {
@@ -133,4 +136,5 @@ right: 4px;
     touch-action: manipulation;
   }
 
+}
 }
