@@ -50,6 +50,10 @@
            <!--ELECTRONICOS-->
    <nav class="navbar">
   
+<ul>
+  <li><a href="https://pin.it/G7yAiJA2h" target="_blank" rel="nofollowsponsored" style="background-color: rgb(198, 0, 0); border: 2px solid  rgb(255, 255, 255);">Pinterest</a></li>
+</ul>
+  
   <ul>
     <div class="titulo" style=" background-color: black; padding: 0.80em;">Phaser</div>
     <li><a href="https://amzn.to/4nbs7tW" target="_blank" rel="nofollowsponsored">buy at amazon </a></li>
@@ -132,8 +136,28 @@
   <li><a href="https://amzn.to/48gTqPn" target="_blank" rel="nofollowsponsored" style="background-color: rgb(16, 192, 0); color: rgb(0, 0, 0);">Adoerpai78.74</a></li>
     <li><a href="https://amzn.to/42oaIGw" target="_blank" rel="nofollowsponsored" style="background-color: rgb(16, 192, 0); color: rgb(0, 0, 0);">Satone 2IN</a></li>
      <li><a href="https://amzn.to/3I8Qgmj" target="_blank" rel="nofollowsponsored" style="background-color: rgb(16, 192, 0); color: rgb(0, 0, 0);">GOKKO1.5L</a></li>
-         <li><a href="" target="_blank" rel="nofollowsponsored" style="background-color: rgb(16, 192, 0); color: rgb(0, 0, 0);"></a></li>
+
 </ul>
+
+
+
+<ul>
+<div class="titulo" style=" background-color: black; padding: 0.80em;">COMP</div>
+  <li><a href="https://amzn.to/3VNG8m2" target="_blank" rel="nofollowsponsored" style="background-color: rgb(109, 118, 108); color: rgb(255, 255, 255);">BOSS CP-1X</a></li>
+<li><a href="https://amzn.to/4mlFpDz" target="_blank" rel="nofollowsponsored" style="background-color: rgb(109, 118, 108); color: rgb(255, 255, 255);">Boss CS-3</a></li>
+<li><a href="https://amzn.to/4mkvfTM" target="_blank" rel="nofollowsponsored" style="background-color: rgb(109, 118, 108); color: rgb(255, 255, 255);">Donner Compressor</a></li>
+
+</ul>
+
+
+     <ul>
+<div class="titulo" style=" background-color: black; padding: 0.80em;">Tunner</div>
+  <li><a href="https://amzn.to/46A7ceJ" target="_blank" rel="nofollowsponsored" style="background-color: rgb(0, 81, 94); color: rgb(255, 255, 255);">Polytune 3</a></li>
+ <li><a href="https://amzn.to/3Ie4Etu" target="_blank" rel="nofollowsponsored" style="background-color: rgb(0, 81, 94); color: rgb(255, 255, 255);">BOss TU-3</a></li>
+ <li><a href="https://amzn.to/4pwVjhh" target="_blank" rel="nofollowsponsored" style="background-color: rgb(0, 81, 94); color: rgb(255, 255, 255);">Boss TU-3W</a></li>
+
+</ul>
+
 </nav>
 
 </main>
