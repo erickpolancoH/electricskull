@@ -95,6 +95,8 @@ h1 {
   font-weight: bold;
   min-width: 120px;
   font-size: 0.9rem;
+  opacity: 0.8;
+
 }
 
 /* SECTION FIXED CENTER */
@@ -129,6 +131,19 @@ section {
 /* MAIN FIX */
 main {
   padding: 0; /* El valor negativo no es válido */
+}
+.footer-afiliado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* fondo con ligera transparencia */
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  z-index: 999;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* MEDIA QUERIES */
@@ -241,4 +256,18 @@ html, body {
   -webkit-user-drag: none;        /* Evita que se pueda arrastrar en Safari */
   pointer-events: none;           /* Ignora cualquier interacción del usuario */
   -webkit-overflow-scrolling: auto; /* Desactiva el scroll suave en iOS */
+}
+
+.footer-afiliado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* fondo con ligera transparencia */
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  z-index: 999;
+  font-family: 'Roboto', sans-serif;
 }
