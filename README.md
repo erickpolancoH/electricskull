@@ -50,9 +50,9 @@
            <!--ELECTRONICOS-->
    <nav class="navbar">
   
-<ul>
+<!--<ul>
   <li><a href="https://pin.it/G7yAiJA2h" target="_blank" rel="nofollowsponsored" style="background-color: rgb(198, 0, 0); border: 2px solid  rgb(255, 255, 255);">Pinterest</a></li>
-</ul>
+</ul>-->
   
   <ul>
     <div class="titulo" style=" background-color: black; padding: 0.80em;">Phaser</div>
